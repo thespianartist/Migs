@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<title>MIGS</title>
+</head>
+<body>
+<div>
+<form method="POST" action="https://migs.mastercard.com.au/vpcpay">
+<input type="text" name="vpc_Version" value="1">
+<input type="text" name="vpc_Command" value="pay">
+<input type="text" name="vpc_AccessCode" value="6ab89f3">
+<input type="text" name="vpc_MerchTxnRef" value="test1234/1">
+<input type="text" name="vpc_Merchant" value="TESTWEBNAB01">
+<input type="text" name="vpc_OrderInfo" value="test1234">
+<input type="text" name="vpc_Amount" value="4995">
+<input type="text" name="vpc_CardNum" value="5123456789012346">
+<input type="text" name="vpc_cardExp" value="0405">
+</div>
+<!-- submit -->
+<input type="submit" value="Pay Now">
+</form>
+
+</body>
+</html>
