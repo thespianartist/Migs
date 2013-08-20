@@ -1,32 +1,72 @@
+body
+{
+	background: #EFEFEC;
+	 max-width: 600px;
+}
+
 input[type=text]
 {
-   
+    margin-top: 5em;
     height: 35px;
     width: 191px;
     border:solid 1px #BFBDBD;
-   	padding-left: 5px;
     box-shadow: 2px 2px 0 #828181 inset;
-     color: #979797;
-    margin-left: 2em;
-   
+    color: #979797;
+    text-align: center;
+    max-width: 600px;
+
 }
 input[type=submit]
 {
     background-color: #1E1E1E;
-    color: #979797;
-    margin-top: 3em;
-    height: 30px;
-    width: 103px;
     color: #bbbbbb;
-    text-transform:uppercase;
     box-shadow:-1px 2px #6E6B6A inset;
-    margin-left: 2em;
+    float: down;
+	bottom: 3em;
+	position: absolute;
+	height: 35px;
+    width: 191px;
+    max-width: 191px;
+
+	
 }
 
+#tarjeta 
+{
+	display: inline-block;
+	text-align: center;
+	
+	
+	
+}
+
+#expira
+{
+	display: inline-block;
+	text-align: center;
+	
+}
+
+#csc
+{
+	display: inline-block;
+	text-align: center;
+	
+	
+}
+
+body .tarjeta
+{
+	margin:  0 0 0 0;
+	margin-top: 50px;
+	position: absolute;
+	
+}
 
 h2
 {
-	color: black;
+	color: #4C4C4C;
+	font-size: 30px;
 	text-align: center;
 	font-family: Arial;
 }
