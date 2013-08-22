@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project-module
+  type="WEB"
+  name="MigsTest"
+  id="myeclipse.1377021781640"
+  context-root="/MigsTest"
+  j2ee-spec="5.0"
+  archive="MigsTest.war">
+  <attributes>
+    <attribute name="webrootdir" value="WebRoot" />
+  </attributes>
+</project-module>
+

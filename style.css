@@ -21,7 +21,7 @@ input[type=submit]
     background-color: #1E1E1E;
     color: #bbbbbb;
     box-shadow:-1px 2px #6E6B6A inset;
-    float: down;
+    float: bottom;
 	bottom: 3em;
 	position: absolute;
 	height: 35px;

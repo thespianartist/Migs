@@ -8,24 +8,25 @@
 <h2>Prueba de MIGS</h2>	
 <div class="formulario">
 <form method="POST"  action="https://migs.mastercard.com.au/vpcdps">
-<input type="hidden" name="vpc_Version" 						value="1">
-<input type="hidden" name="vpc_Command"     					value="pay">
-<input type="hidden" name="vpc_MerchTxnRef" 					value="test1234/1">
-<input type="text" 	 name="vpc_Merchant"    					value="Menchant ID">
-<input type="text"   name="vpc_AccessCode"  					value="AccessCode">
-<input type="hidden" name="vpc_OrderInfo"   					value="test1234">
-<input type="hidden" name="vpc_Amount"      					value="4995">
+<input type="hidden" name="vpc_Version" 	value="1">
+<input type="hidden" name="vpc_Command"   	value="pay">
+<input type="hidden" name="vpc_MerchTxnRef" value="test1234/1">
+<input type="text" 	 name="vpc_Merchant"    value="Menchant ID">
+<input type="text"   name="vpc_AccessCode"  value="AccessCode">
+<input type="hidden" name="vpc_OrderInfo"   value="test1234">
+<input type="hidden" name="vpc_Amount"      value="4995">
+<input type="hidden" name"vcp_ReturnURL" 	value="http://localhost:8080/MigsTest/PruebaMigs">
 </div>
 
 <div class="tarjeta">
-<input type="text"   name="vpc_CardNum"     	id="tarjeta"	value="Tarjeta">
-<input type="text"   name="vpc_cardExp"     	id="expira"		value="Expira">
-<input type="text"   name"vpc_CardSecurityCode" id="csc"		value="CSC"> 
-<input type="hidden" name"vcp_ReturnURL" 						value="www.google.com.mx">
+<input type="text"   name="vpc_CardNum"     	id="tarjeta"  value="Tarjeta">
+<input type="text"   name="vpc_CardExp"     	id="expira"   value="Expira">
+<input type="text"   name"vpc_CardSecurityCode" id="csc"	  value="CSC"> 
 </div>
+
 <!-- submit https://migs.mastercard.com.au/vpcpay vpcdps -->
-<div class="pagar">
-<input type="submit" value="Pagar">
+<div 	class="pagar">
+<input  type="submit" value="Pagar">
 </div>
 </form>
 

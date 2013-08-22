@@ -1,3 +1,5 @@
+POST request!
+
 vpc_Amount=4995
 vpc_BatchNo=0
 vpc_Command=pay
@@ -10,6 +12,14 @@ vpc_TransactionNo=0
 vpc_TxnResponseCode=7
 vpc_Version=1
 
-
 6ab89f3
 TESTWEBNAB01
+
+POST response!
+
+https://migs.mastercard.com.au/vpcdps?vpc_Version=1&vpc_Command=pay&vpc_MerchTxnRef=test1234%2F1&vpc_Merchant=TESTWEBNAB01&vpc_AccessCode=6ab89f3&vpc_OrderInfo=test1234&vpc_Amount=4995&vpc_CardNum=5555555555554444&vpc_cardExp=1401
+
+
+
+
+
