@@ -1,7 +1,7 @@
 Migs
 ====
 
-Implementacion de Migs para un We
+Implementacion de Migs para un Webapp
 
 Migs( MasterCard internet gateway service) es una solucion para realizar cobros con tarjeta de credito en tu 
 webapp, es este caso migs trabaja como un servlet que incluye un httpclient de apache para comunicarse con el gateway 
