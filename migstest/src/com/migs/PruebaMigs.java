@@ -168,7 +168,6 @@ import com.viajez.utils.Loader;
 			 String [] version = sapararResponse[10].split("=");
 			 responsevalues.setVpc_Version(version[1]);
 			 System.out.println("vcp Version= "+responsevalues.getVpc_Version());
-			 
 			
 			
 			} catch (Exception e) {
